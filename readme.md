@@ -21,3 +21,9 @@ To setup and use the Kirby Panel visit:
 ``http://localhost/panel``
 
 Make changes to your project in *content*, *assets* and *site*.
+
+To stop the container:
+
+``docker-compose down``
+
+Your changes will persits in the *content*, *assets* and *site* directory.
