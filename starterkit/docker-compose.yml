@@ -1,0 +1,10 @@
+version: '2'
+services:
+  kirby:
+    image: mecrawlings/getkirby-starterkit
+    volumes:
+      - ./content:/var/www/html/content
+      - ./site:/var/www/html/site
+      - ./assets:/var/www/html/assets
+    ports:
+      - 80:80
