@@ -26,4 +26,4 @@ To stop the container:
 
 ``docker-compose down``
 
-Your changes will persit in the *content*, *assets* and *site* directory.
+Your changes will persit in the *content*, *assets* and *site* directories.
